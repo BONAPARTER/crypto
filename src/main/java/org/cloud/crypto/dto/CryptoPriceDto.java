@@ -1,4 +1,4 @@
-package org.cloud.crypto.response;
+package org.cloud.crypto.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class CryptoPriceResponse {
+public class CryptoPriceDto {
     private String currency;
     private BigDecimal priceUsd;
     private LocalDateTime timestamp;
